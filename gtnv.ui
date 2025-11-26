@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>829</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>829</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Giới thiệu nhân vật</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #FCF9EA;
+}
+
+QPushButton {
+    background-color: #BADFDB;
+    border: 3px solid #BADFDB;
+    border-radius: 15px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+QPushButton:hover {
+    background-color: #FFA4A4;
+    border: 3px solid #FFA4A4;
+}
+
+QPushButton:pressed {
+    background-color: #FFBDBD;
+    border: 3px solid #FFBDBD;
+}
+
+QTextEdit {
+    background-color: rgba(0, 0, 0, 100);
+    border: 2px solid #BADFDB;
+    border-radius: 10px;
+    padding: 10px;
+    color: #FCF9EA;
+    selection-background-color: #FFA4A4;
+    selection-color: #FFFFFF;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>511</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>img/char/castorice.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/castorice_Icon.png</normaloff>img/avatar/castorice_Icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/cyrene.png</normaloff>img/avatar/cyrene.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/evernight_icon.png</normaloff>img/avatar/evernight_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/hyacine_Icon.png</normaloff>img/avatar/hyacine_Icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/hysilens_icon.png</normaloff>img/avatar/hysilens_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>640</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>img/avatar/aglaea_icon.png</normaloff>img/avatar/aglaea_icon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>341</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Exo 2 Black</family>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Castorice</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>120</y>
+      <width>481</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;1. Thông tin cơ bản&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tên:&lt;/span&gt; Castorice (thường được gọi thân mật là Cas hoặc Cassie).&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Danh hiệu:&lt;/span&gt; Con gái của sông Styx (Daughter of the River of Souls), Hậu duệ Chrysos (Chrysos Heir), Nữ Thần Chết, Thánh Nữ Chiến Tranh (Maiden of War).&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Vận mệnh:&lt;/span&gt; Ký Ức (The Remembrance).&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Thuộc tính:&lt;/span&gt; Lượng Tử (Quantum).&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Phe phái:&lt;/span&gt; Hậu duệ Chrysos của Amphoreus.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;2. Xuất thân và Cốt truyện&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Castorice đến từ &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Aidonia&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;, một vương quốc tôn sùng cái chết, nơi tuyết rơi vĩnh cửu. Câu chuyện của cô mang màu sắc bi thương và gắn liền với chủ đề về sự hy sinh và vòng lặp sinh tử.&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Chị em song sinh:&lt;/span&gt; Castorice có một người chị em song sinh tên là &lt;span style=&quot; font-weight:600;&quot;&gt;Pollux&lt;/span&gt;. Trong các chu kỳ trước của thế giới Amphoreus, Castorice và Pollux được chọn để trở thành bán thần cai quản sự sống và cái chết.&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Sự hy sinh:&lt;/span&gt; Để giành lấy ngọn lửa cốt lõi của Thanatos (Cái Chết), Castorice đã buộc phải đưa ra một lựa chọn đau đớn. Thay vì làm hại chị em mình, cô đã chọn hy sinh bản thân, nhường sự sống cho Pollux để Pollux trở thành Titan của Sự Sống và Cái Chết (Thanatos).&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Lời nguyền:&lt;/span&gt; Sinh ra với lời nguyền của cái chết, mọi thứ Castorice chạm vào đều sẽ lụi tàn. Điều này khiến cô luôn sống trong sự cô độc, nhưng cô lại coi cái chết không phải là sự kết thúc đáng sợ mà là một &amp;quot;giấc ngủ ngọt ngào&amp;quot;.&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Sứ mệnh:&lt;/span&gt; Cô là người canh giữ tiếng khóc của các linh hồn và tìm kiếm &amp;quot;Ngọn lửa Tử vong&amp;quot;. Cô có khả năng kết nối sâu sắc với Sông Styx (dòng sông của các linh hồn) và được miêu tả là người mang đến &amp;quot;cái ôm của sự kết thúc&amp;quot;.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;3. Tính cách và Ngoại hình&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ngoại hình:&lt;/span&gt; Castorice thường xuất hiện với vẻ ngoài mang phong cách Gothic, đội vương miện gai màu đen, mặc váy trắng điểm xuyết hoa và bướm màu tím - biểu tượng thường thấy của cái chết và sự tái sinh.&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tính cách:&lt;/span&gt; Mặc dù mang danh hiệu đáng sợ liên quan đến tử thần, Castorice lại được miêu tả là có vẻ ngoài và phong thái khá điềm tĩnh, thậm chí là &amp;quot;dễ thương&amp;quot; theo một cách ma mị. Cô coi việc đưa tiễn các linh hồn là một hành động dịu dàng, như ru họ vào giấc ngủ bình yên.&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;4. Khả năng chiến đấu &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Trong game, Castorice là một nhân vật 5 sao đi theo con đường &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Ký Ức (Remembrance)&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; với cơ chế triệu hồi đặc biệt:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Triệu hồi:&lt;/span&gt; Cô có khả năng triệu hồi một thực thể gọi là &lt;span style=&quot; font-weight:600;&quot;&gt;Netherwing&lt;/span&gt; (hoặc Rồng Tử Vong/Memosprite) để hỗ trợ chiến đấu.&lt;/li&gt;
+&lt;li style=&quot; font-size:8pt;&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Cơ chế:&lt;/span&gt; Kỹ năng của cô thường liên quan đến việc tiêu hao HP của đồng minh để gây sát thương diện rộng (AoE) cực lớn lên kẻ địch, thể hiện đúng bản chất &amp;quot;tước đoạt sự sống&amp;quot; của mình.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
